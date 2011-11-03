@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hexgame
+# catalog-date 2008-08-22 10:38:02 +0200
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-hexgame
 Version:	1.0
 Release:	1
@@ -41,6 +47,7 @@ draw such a game in a trivial way.
 %doc %{_texmfdistdir}/doc/latex/hexgame/README
 %doc %{_texmfdistdir}/doc/latex/hexgame/hexgame.pdf
 %doc %{_texmfdistdir}/doc/latex/hexgame/hexgame.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ draw such a game in a trivial way.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
