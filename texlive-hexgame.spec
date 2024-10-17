@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Provide an environment to draw a hexgame-board
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hexgame
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hexgame
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hexgame.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hexgame.doc.r%{version}.tar.xz
